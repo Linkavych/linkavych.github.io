@@ -44,6 +44,17 @@ If I can do it, or implement it, then I probably understand it!
   <figcaption> Main Function</figcaption>
 </figure>
 
+## Callouts
+
+A special note to a few people who have influenced and altered my own path:
+
+- [@spotheplanet](https://twitter.com/spotheplanet) and the blog [ired.team](https://www.ired.team/) - A guiding blog on red teaming and exploitation
+- [Malware Traffic Analysis](https://www.malware-traffic-analysis.net/) and [@malware_traffic](https://twitter.com/malware_traffic) - A foundational blog for me. Tipped off my interest in malware analysis.
+- [@hasherezade](https://twitter.com/haserezade) and her extensive work on malware available on [github](https://github.com/hasherezade/) and her [blog](https://hasherezade.github.io/).
+- [@herrcore](https://twitter.com/herrcore) and his work at/for [OpenAnalysis](https://www.openanalysis.net/) and [UnpacMe](https://www.unpac.me/#/)
+
+And the work of the many other professionals taking apart adversary activity on a daily basis to defend their networks.
+
 ## Contact Me
 
 You can find me in many of the usual social media locations, but primarily:
