@@ -39,6 +39,11 @@ If I can do it, or implement it, then I probably understand it!
 
     Follow me at your own risk - to time and frustration.
 
+<figure markdown>
+  ![shm.c](assets/main.jpg){ width="700" }
+  <figcaption> Main Function</figcaption>
+</figure>
+
 ## Contact Me
 
 You can find me in many of the usual social media locations, but primarily:
