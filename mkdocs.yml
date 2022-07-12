@@ -1,0 +1,114 @@
+#project info
+site_name: /dev/shm 
+site_url: https://linkavych.github.io
+site_author: Adam V. Link
+site_description: >-
+  Examining malware, malware techniques, detections, and home lab experimentation
+
+# Repository
+repo_name: linkavych/linkavych.github.io
+repo_url: https://github.com/linkavych/linkavych.github.io
+
+# Configuration
+theme:
+  name: material
+
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue grey
+      accent: orange
+      toggle:
+        icon: material/brightness-7
+        name: Dark mode
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: orange
+      accent: deep purple
+      toggle:
+        icon: material/brightness-4
+        name: Light mode
+  
+  font:
+    text: Fira Code
+    code: Fira Sans Mono
+
+  language: en
+
+  logo: assets/spaceship.png
+  favicon: assets/favicon-32x32.png
+  features:
+    - navigation.instant
+    - navigation.tracking
+    #- navigation.tabs
+    - navigation.sections
+    #- navigation.expand
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.share
+    - header.autohide
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - abbr
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - tables
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji 
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      use_pygments: true
+      auto_title: true
+      linenums: true
+      linenums_style: pymdownx-inline
+  - pymdownx.inlinehilite
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.smartsymbols
+  - pymdownx.keys
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      clickable_checkbox: true
+
+plugins:
+  - search
+  - tags
+
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/adamvlink
+    - icon: fontawesome/brands/github
+      link: https://github.com/Linkavych
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/linkavych
+
+copyright: Copyright &copy; 2022 Adam V. Link (@linkavych)
+
+# Navigation tree Layout
+nav:
+  - What is this?: index.md
+  - Malware Analysis: malware/index.md
+    #      - Linux: linux-malware.md
+    #  - Windows: windows-malware.md
+  - Malware Techniques: techniques/index.md
+    #  - Linux: linux-techniques.md
+    #  - Windows:
+    #        - Process Injection: win-proc-injection.md
+  - Lab Infrastructure: lab/index.md
+    #  - Proxmox: proxmox.md
+    #  - Guacamole: apache-guac-rocky.md
+
